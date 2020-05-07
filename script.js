@@ -33,7 +33,7 @@ $("#email-button").click(function () {
     "_blank"
   );
 });
-
+// This is a comment
 /*
   $("").click(function(){
     $("").html("");
