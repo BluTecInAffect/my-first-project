@@ -1,0 +1,141 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-color: #ffceff;
+  font-family: Comic Sans MS, arial, sans-serif;
+  margin: 2em;
+}
+/*
+  h1.blocktext {
+    font-style: italic;
+    color: #b400b4;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+  }*/
+h2 {
+  font-style: none;
+  color: #8700b4;
+  clear: both;
+  padding-top: 10px;
+  cursor: pointer;
+}
+/*
+  pad{
+    padding-left: 50px;
+  }*/
+
+p {
+  font-style: none;
+  color: #b400b4;
+}
+/*
+  margin {
+    position: relative;
+    top: 15px;
+  }
+  .thick-purple-border {
+    border-color: purple;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+  */
+.title-1,
+.title-2,
+.title-3 {
+  cursor: pointer;
+  user-select: none;
+}
+textarea {
+  width: 220%;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+img {
+  cursor: pointer;
+}
+.custom-checkbox label,
+.custom-radio label {
+  cursor: pointer;
+}
+.my-photo {
+  width: 120px;
+  border-radius: 50%;
+  border-width: 4px;
+  border-color: purple;
+  border-style: solid;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.full-name {
+  float: right;
+  padding: 20px;
+  font-style: italic;
+  color: #48b400;
+  cursor: pointer;
+}
+/*
+  img.img_center {
+    float: center;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  /*
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }*/
+/*
+   @media only screen and (min-width : 320px) {
+  
+  }
+  
+  
+  @media only screen and (min-width : 480px) {
+  #text-left {
+  padding-top: 15%;
+  
+  }
+  }
+  
+  
+  @media only screen and (min-width : 768px) {
+  #text-left {
+  padding-top: 25%;
+  
+  }
+  
+  }
+  
+  
+  @media only screen and (min-width : 992px) {
+  #text-left {
+  padding-top: 30%;
+  
+  }
+  
+  }
+  
+  
+  @media only screen and (min-width : 1200px) {
+  #text-left {
+  padding-top: 35%;
+  
+  }
+  }
+  */
